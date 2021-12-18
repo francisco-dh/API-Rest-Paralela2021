@@ -1,0 +1,10 @@
+### test
+POST http://localhost:3000/apiclima/busqueda HTTP/1.1
+x-api-correo: pancho@email.com
+x-api-password: contraseña123
+
+Content-Type: application/json
+{
+    "saludo":"pancho@email.com"
+}
+###

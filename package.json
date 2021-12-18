@@ -1,0 +1,29 @@
+{
+  "name": "rest-temp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.21",
+    "moment-timezone": "^0.5.34",
+    "nanoid": "^3.1.30",
+    "node-pandas": "^1.0.5",
+    "path": "^0.12.7",
+    "pg": "^8.7.1",
+    "puppeteer": "^13.0.0",
+    "xlsx": "^0.17.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
